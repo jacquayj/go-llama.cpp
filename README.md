@@ -1,4 +1,4 @@
-# [![Go Reference](https://pkg.go.dev/badge/github.com/go-skynet/go-llama.cpp.svg)](https://pkg.go.dev/github.com/go-skynet/go-llama.cpp) go-llama.cpp
+# [![Go Reference](https://pkg.go.dev/badge/github.com/jacquayj/go-llama.cpp.svg)](https://pkg.go.dev/github.com/jacquayj/go-llama.cpp) go-llama.cpp
 
 [LLama.cpp](https://github.com/ggerganov/llama.cpp) golang bindings.
 
@@ -6,13 +6,13 @@ The go-llama.cpp bindings are high level, as such most of the work is kept into 
 
 Check out [this](https://about.sourcegraph.com/blog/go/gophercon-2018-adventures-in-cgo-performance) and [this](https://www.cockroachlabs.com/blog/the-cost-and-complexity-of-cgo/) write-ups which summarize the impact of a low-level interface which calls C functions from Go.
 
-If you are looking for an high-level OpenAI compatible API, check out [here](https://github.com/go-skynet/llama-cli).
+If you are looking for an high-level OpenAI compatible API, check out [here](https://github.com/jacquayj/llama-cli).
 
 ## Attention!
 
-Since https://github.com/go-skynet/go-llama.cpp/pull/180 is merged, now go-llama.cpp is not anymore compatible with `ggml` format, but it works ONLY with the new `gguf` file format. See also the upstream PR: https://github.com/ggerganov/llama.cpp/pull/2398.
+Since https://github.com/jacquayj/go-llama.cpp/pull/180 is merged, now go-llama.cpp is not anymore compatible with `ggml` format, but it works ONLY with the new `gguf` file format. See also the upstream PR: https://github.com/ggerganov/llama.cpp/pull/2398.
 
-If you need to use the `ggml` format, use the https://github.com/go-skynet/go-llama.cpp/releases/tag/pre-gguf tag.
+If you need to use the `ggml` format, use the https://github.com/jacquayj/go-llama.cpp/releases/tag/pre-gguf tag.
 
 ## Usage
 
@@ -21,7 +21,7 @@ Note: This repository uses git submodules to keep track of [LLama.cpp](https://g
 Clone the repository locally:
 
 ```bash
-git clone --recurse-submodules https://github.com/go-skynet/go-llama.cpp
+git clone --recurse-submodules https://github.com/jacquayj/go-llama.cpp
 ```
 
 To build the bindings locally, run:
@@ -95,7 +95,7 @@ cp build/bin/ggml-metal.metal .
 
 Enjoy!
 
-The documentation is available [here](https://pkg.go.dev/github.com/go-skynet/go-llama.cpp) and the full example code is [here](https://github.com/go-skynet/go-llama.cpp/blob/master/examples/main.go).
+The documentation is available [here](https://pkg.go.dev/github.com/jacquayj/go-llama.cpp) and the full example code is [here](https://github.com/jacquayj/go-llama.cpp/blob/master/examples/main.go).
 
 ## License
 

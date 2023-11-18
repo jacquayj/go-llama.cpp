@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"strings"
 
-	llama "github.com/go-skynet/go-llama.cpp"
+	llama "github.com/jacquayj/go-llama.cpp"
 )
 
 var (
